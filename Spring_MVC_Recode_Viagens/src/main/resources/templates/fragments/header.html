@@ -1,0 +1,46 @@
+<!-- Início do Cabeçalho -->
+<header th:fragment="html_header">
+
+	<div class="contatos">
+
+		<!-- inicio da Barra Laranja -->
+		<div><a href="https://api.whatsapp.com/send?phone=5511912345678" target="_blank"><img class="btn-telefone"
+					th:src="@{/imagens/telefone.png}" alt=" botao numero WhatsApp"></a></div>
+		<!-- Fim da Barra Laranja -->
+
+		<!-- Logotipo do Site -->
+
+		<figure><a href="/pages/home"><img class=logo th:src="@{/imagens/logotipo Recode.png}"
+					alt="logotipo recode pro"></a></figure>
+
+		<!-- Icoones das redes Sociais e Login -->
+
+		<div class="icones_redes_sociais">
+			<a href="mailto:recodepro@recode.org.br"><img th:src="@{/imagens/icons8-nova-mensagem-32.png}"
+					alt="botão e-mail"></a>
+			<a href="https://www.instagram.com/rederecode/" target="_blank"><img
+					th:src="@{/imagens/icons8-instagram-32.png}" alt="botão instagram"></a>
+			<a href="https://www.facebook.com/rederecode/" target="_blank"><img
+					th:src="@{/imagens/icons8-facebook-32.png}" alt="botão facebook"></a>
+			<a class="login" th:classappend="${pageActive == 'login'} ? 'active' : '' " href="/pages/login"><img
+					th:src="@{/imagens/login_icon.png}" alt="Botão Login">Login</a>
+		</div>
+
+
+	</div>
+
+	<!-- Início do Menu -->
+
+	<div class="links">
+		<div class="link_esquerdo">
+			<a th:classappend="${pageActive == 'destinos'} ? 'active' : '' " href="/pages/destinos">DESTINOS</a>
+			<a th:classappend="${pageActive == 'promocoes'} ? 'active' : '' " href="/pages/promocoes">PROMOÇÕES</a>
+		</div>
+		<div class="link_direito">
+			<a th:classappend="${pageActive == 'quemsomos'} ? 'active' : '' " href="/pages/quemsomos">QUEM SOMOS</a>
+			<a th:classappend="${pageActive == 'contatos'} ? 'active' : '' " href="/pages/contatos">CONTATOS</a>
+		</div>
+	</div>
+	<!-- Fim do Menu -->
+	</thheader>
+	<!-- Fim do Cabeçalho -->
