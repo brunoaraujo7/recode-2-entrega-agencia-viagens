@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecodeViagens", "RecodeViagens\RecodeViagens.csproj", "{609F77D1-AE0F-477F-B775-98373B58CD67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{609F77D1-AE0F-477F-B775-98373B58CD67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609F77D1-AE0F-477F-B775-98373B58CD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609F77D1-AE0F-477F-B775-98373B58CD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609F77D1-AE0F-477F-B775-98373B58CD67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E451D8D8-8DBF-40E8-8A38-96A3F2B808B7}
+	EndGlobalSection
+EndGlobal
